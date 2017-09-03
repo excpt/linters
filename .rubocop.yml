@@ -96,3 +96,8 @@ Style/AlignHash:
 
 Style/TrivialAccessors:
   AllowPredicates: true
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: '[]'
+    '%i':    '()'
