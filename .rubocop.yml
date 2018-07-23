@@ -101,3 +101,9 @@ Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     default: '[]'
     '%i':    '()'
+
+Style/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
